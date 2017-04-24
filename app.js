@@ -6,11 +6,14 @@ var router = require("./router.js");
 //1. Create Webserver
 var http = require('http');
 
+// use port 3000 unless there exists a preconfigured port
+var port = process.env.port || 3000;
+
 // creates server and sets port
 http.createServer(function (request, response) {
   router.home(request, response);
   router.user(request, response);
-}).listen(process.env.port);
+}).listen(port);
 
 
 
