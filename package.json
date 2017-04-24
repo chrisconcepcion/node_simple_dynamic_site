@@ -15,7 +15,9 @@
     "type": "git",
     "url": "git+https://github.com/chrisconcepcion/node_simple_dynamic_site.git"
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
