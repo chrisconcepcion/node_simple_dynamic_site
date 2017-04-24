@@ -1,6 +1,9 @@
 {
   "name": "node_simple_dynamic_site",
   "version": "1.0.0",
+  "engines": {
+    "node": "7.9.0"
+  },
   "description": "",
   "main": "app.js",
   "scripts": {
