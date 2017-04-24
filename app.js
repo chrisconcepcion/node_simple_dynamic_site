@@ -10,13 +10,9 @@ var http = require('http');
 http.createServer(function (request, response) {
   router.home(request, response);
   router.user(request, response);
-}).listen(3000);
+}).listen(process.env.port);
 
 
 
 
 
-
-//4. Function that handles reading of files and merge in value
-  // read from file and get string
-    // merge values into strings
